@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 571134123400863823}
   - component: {fileID: 571134123400863809}
   - component: {fileID: 571134123400863822}
+  - component: {fileID: 5433528267000983637}
   m_Layer: 5
   m_Name: button_name
   m_TagString: Untagged
@@ -135,6 +136,45 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &5433528267000983637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571134123400863820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 5931596338751078425
+  references:
+    version: 2
+    RefIds:
+    - rid: 5931596338751078425
+      type: {class: TrackedUGuiGraphic, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 571134123400863822}
+        m_TrackedProperties:
+          items:
+          - rid: 5931596338751078426
+        m_UpdateType: 0
+    - rid: 5931596338751078426
+      type: {class: StringTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_text
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: next scene
+        - localeIdentifier:
+            m_Code: de
+          value: "n\xE4chste Szene"
+        - localeIdentifier:
+            m_Code: es
+          value: siguiente escena
 --- !u!1 &571134124716470206
 GameObject:
   m_ObjectHideFlags: 0

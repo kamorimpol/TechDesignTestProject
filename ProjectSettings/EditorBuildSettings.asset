@@ -11,4 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/scene_2_desert.unity
     guid: 93807699fb7d5d44e9aceedcefa995e4
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: cb735f892c7017b418661a0fb71decff, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: c253999faf88aa140bcb53c24cf0b53c, type: 2}
